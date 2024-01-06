@@ -10,16 +10,21 @@ You are given two strings word1 and word2. Merge the strings by adding letters i
 
 Return the merged string.
 
-Example:
+<h3>Example:</h3>
 
-Input: word1 = "abc", word2 = "pqr"
-Output: "apbqcr"
-Explanation: The merged string will be merged as so:
-word1:  a   b   c
-word2:    p   q   r
-merged: a p b q c r
+<p>Input: word1 = "abc", word2 = "pqr"</p>
+<p>Output: "apbqcr"</p>
+<p>Explanation: The merged string will be merged as so:</p>
+<p>word1:  a _ b _ c</p>
+<p>word2:  _ p _ q _ r</p>
+<p>merged: a p b q c r</p>
 
 <h4>Constraints</h4>
 
-1 <= word1.length, word2.length <= 100
-word1 and word2 consist of lowercase English letters.
+<p>1 <= word1.length, word2.length <= 100</p>
+<p>word1 and word2 consist of lowercase English letters.</p>
+
+<h2>Results:</h2>
+
+Runtime: 32 ms (faster than 89.48%)
+Memory usage: 17.2 MB (less than 27.65%)
