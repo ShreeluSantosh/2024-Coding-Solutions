@@ -1,5 +1,9 @@
 <img src='https://img.shields.io/badge/Difficulty-Easy-green'>
 
+<h3>Part of #LeetCode75 challenge</h3>
+
+<h5>Source: LeetCode - LeetCode 75 study plan</h5>
+
 <h2>Problem statement</h2>
 
 You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
