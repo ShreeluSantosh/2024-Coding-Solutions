@@ -29,8 +29,8 @@ For nums2, nums2[0] = 2 is present at index 1 of nums1, whereas nums2[1] = 4 and
 
 <h4>Constraints</h4>
 
-<p>1 <= nums.length <= 104</p>
-<p>-231 <= nums[i] <= 231 - 1</p>
+<p>1 <= nums1.length, nums2.length <= 1000</p>
+<p>-1000 <= nums1[i], nums2[i] <= 1000</p>
 
 <h2>Results:</h2>
 
