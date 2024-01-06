@@ -26,5 +26,5 @@ Return the merged string.
 
 <h2>Results:</h2>
 
-Runtime: 32 ms (faster than 89.48%)
+<p>Runtime: 32 ms (faster than 89.48%)</p>
 Memory usage: 17.2 MB (less than 27.65%)
