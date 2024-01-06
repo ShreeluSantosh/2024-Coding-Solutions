@@ -1,0 +1,38 @@
+<img src='https://img.shields.io/badge/Difficulty-Easy-green'>
+
+<h3>Part of #LeetCode75 challenge</h3>
+
+<h5>Source: LeetCode - LeetCode 75 study plan</h5>
+
+<h2>Problem statement</h2>
+
+Given two 0-indexed integer arrays nums1 and nums2, return a list answer of size 2 where:
+
+<ol>
+<li>answer[0] is a list of all distinct integers in nums1 which are not present in nums2.
+<li>answer[1] is a list of all distinct integers in nums2 which are not present in nums1.
+</ol>
+
+Note that the integers in the lists may be returned in any order.
+
+<h3>Example:</h3>
+
+Input: nums1 = [1,2,3], nums2 = [2,4,6]
+
+Output: [[1,3],[4,6]]
+
+Explanation:
+
+For nums1, nums1[1] = 2 is present at index 0 of nums2, whereas nums1[0] = 1 and nums1[2] = 3 are not present in nums2. Therefore, answer[0] = [1,3].
+
+For nums2, nums2[0] = 2 is present at index 1 of nums1, whereas nums2[1] = 4 and nums2[2] = 6 are not present in nums2. Therefore, answer[1] = [4,6].
+
+<h4>Constraints</h4>
+
+<p>1 <= nums.length <= 104</p>
+<p>-231 <= nums[i] <= 231 - 1</p>
+
+<h2>Results:</h2>
+
+<p>Runtime: 716 ms (faster than 5.78%)</p>
+Memory usage: 16.8 MB (less than 66.25%)
